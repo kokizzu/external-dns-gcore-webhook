@@ -1,6 +1,8 @@
 
 # ExternalDNS - GCore
 
+**NOTE** Owner changed to [G-Core](//github.com/G-Core/external-dns-gcore-webhook) use their repo instead, further contribution should be done there.
+
 Inspired from other 5 external DNS examples:
 - https://github.com/stackitcloud/external-dns-stackit-webhook
 - https://github.com/glesys/external-dns-glesys
@@ -200,7 +202,3 @@ curl http://localhost:8888/records -H 'Accept: application/external.dns.webhook+
   }
 ]
 ```
-
-## How To Contribute
-
-Any pull request are welcome, please make sure to include the test case.
