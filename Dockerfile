@@ -1,4 +1,4 @@
-FROM golang:1.21 as builder
+FROM golang:1.26.10 as builder
 WORKDIR /workdir
 COPY . .
 RUN make build

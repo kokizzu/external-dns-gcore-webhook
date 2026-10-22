@@ -237,7 +237,7 @@ func headerCheck(isContentType bool, w http.ResponseWriter, r *http.Request) err
 		} else {
 			msg += "an accept header"
 		}
-		err := fmt.Errorf(msg)
+		err := fmt.Errorf("%s", msg)
 		_, writeErr := fmt.Fprint(w, err.Error())
 		if writeErr != nil {
 			requestLog(r).WithField(logFieldError, writeErr).Fatalf("error writing error message to response writer")
