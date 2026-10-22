@@ -1,6 +1,6 @@
 module github.com/kokizzu/external-dns-gcore-webhook
 
-go 1.21
+go 1.26.10
 
 require (
 	github.com/G-Core/gcore-dns-sdk-go v0.2.6
